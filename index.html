@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Phone Directory</title>
+	<meta charset="utf-8">
+	<meta author="Shubhangi Goyal" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="text/css" href="favicon.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway|Redressed" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="container">
+	<div class="header">
+		<h1 id="head">My Phone Directory</h1>
+	</div>
+	<div class="Add_Sub">
+	<button onclick="myfunction()" id="b1" class="button1">Add Subscribers</button>
+	</div>
+	<div class="View_sub">
+	<button class="button2" id="b2" onclick="showdetails()">View Subscribers</button>
+	</div>
+	<div class="info">
+	<table id="table_det" class="change">
+		<tr>
+			<th>Name</th>
+			<th>Phone</th>
+		</tr>
+	</table>
+	</div>
+	
+	<div class="Subscribers" id="subs" class="change">
+		<p>Name <input class="change" id="n" type="text" name="name" required="" onchange="changetext()"></p>
+		<p>Phone No <input class="change" id="p" type="tel" name="Phone" maxlength="10" pattern="\d{10}" title="Please enter exactly 10 digits" required onchange="changetext()"></p>
+		<button id="b3" onclick="insertdata()">Add Subscriber</button>
+		<p><label>Name: </label><span id='displayname' ></span></p>
+		<p><label>Phone No:</label ><span id='displayphone'></span></p>
+	</div>
+	<div class="getback">
+	<button class="button4 change" id="b4" onclick="goback()">Goback</button>
+	</div>
+</div>
+<footer class="details">
+	<p id="copyright"><strong>©</strong>All Rights Reserved to Shubhangi Goyal</p>
+</footer>
+<script src="java.js"></script>
+</body>
+</html>

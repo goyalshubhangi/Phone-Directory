@@ -1,0 +1,106 @@
+body{
+	background-color: #001;
+}
+.header{
+	background-color: #fff;
+	color: #000;
+	text-align: center;
+	font-family: 'Raleway',sans-serif;
+	margin: 0px 150px;
+	opacity: 0.8;
+}
+/*Add subscribers Button*/
+.button1{
+	background-color: #002;
+	color: #fff;
+	font-size: 150%;
+	font-family: 'Redressed';
+	position: absolute;
+	left:100px;
+	top: 100px;
+}
+.button1:hover{
+	background-color: #fff;
+	color: #002;
+}
+/*View subscribers Button*/
+.button2{
+	background-color: #002;
+	color: #fff;
+	font-size: 150%;
+	font-family: 'Redressed';
+	position: absolute;
+	right:100px;
+	top: 100px;
+}
+.button2:hover{
+	background-color: #fff;
+	color: #002;
+}
+table{
+	color: #fff;
+	width: 80%;
+	margin-top: 100px;
+	visibility: hidden;
+    border-collapse: collapse;
+	overflow: hidden;
+	text-overflow: ellipsis; 
+	margin-left: 150px;
+}
+
+td, th{
+	color: white;
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+button{
+	padding: 2px;
+}
+/*subscribers */
+.Subscribers{
+	color: #fff;
+	position: relative;
+	margin: 0px 400px;
+	font-size: 150%;
+	visibility: hidden;
+}
+input[type=text],
+input[type=tel] {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+.Subscribers button{
+	background-color: #002;
+	color: #fff;
+	font-size: 150%;
+	font-family: 'Redressed';
+	position: absolute;
+	bottom: -80px;
+}
+.Subscribers button:hover{
+	background-color: #fff;
+	color: #002;
+}
+.getback button{
+	background-color: #002;
+	color: #fff;
+	font-size: 150%;
+	font-family: 'Redressed';
+	position: absolute;
+	top:80px;
+	left: 150px;
+	visibility: hidden;
+}
+/*Footer*/
+footer {
+	font-family:'Raleway',sans-serif;
+	color: white;
+	text-align:center;
+	margin:120px;
+}
+
+
+	
